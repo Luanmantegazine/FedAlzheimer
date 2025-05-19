@@ -4,24 +4,6 @@ Este repositório contém uma implementação de aprendizado federado (Federated
 
 ---
 
-## Sumário
-
-1. [Visão Geral](#visão-geral)  
-2. [Características Principais](#características-principais)  
-3. [Requisitos](#requisitos)  
-4. [Estrutura do Projeto](#estrutura-do-projeto)  
-5. [Pré-processamento de Dados](#pré-processamento-de-dados)  
-6. [Arquitetura e Split Learning](#arquitetura-e-split-learning)  
-7. [Configuração do Federated Learning](#configuração-do-federated-learning)  
-8. [Métodos de Agregação](#métodos-de-agregação)  
-9. [Treinamento & Avaliação](#treinamento--avaliação)  
-10. [Resultados & Métricas](#resultados--métricas)  
-11. [Como Executar](#como-executar)  
-12. [Referências](#referências)  
-13. [Licença](#licença)  
-
----
-
 ## Visão Geral
 
 A Doença de Alzheimer (AD) é um distúrbio neurodegenerativo incurável caracterizado por declínio cognitivo progressivo. Modelos de deep learning em grandes bases de MRI podem ajudar no diagnóstico precoce, mas rotular manualmente centenas de milhares de imagens é custoso e há barreiras de privacidade entre instituições.
