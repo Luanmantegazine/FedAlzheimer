@@ -42,4 +42,3 @@ Comparamos ResNet-50 e DenseNet-169, variando:
 Instale com:
 ```bash
 pip install -r requirements.txt
-python FedAlzheimer.py
