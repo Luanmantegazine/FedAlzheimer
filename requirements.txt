@@ -10,3 +10,4 @@ tensorflow==2.17.0
 pillow==9.4.0
 glob2==0.7
 imbalanced-learn==0.11.0
+flwr==1.20.0
