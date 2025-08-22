@@ -2,8 +2,8 @@ import os
 import shutil
 
 
-caminho_pasta_origem = '/Users/luanr/pycharm/TF/ADNI/MCI'
-caminho_pasta_destino = '/Users/luanr/pycharm/TF/ADNI/MCI'
+caminho_pasta_origem = '/Users/luanr/pycharm/FedAlzheimer/FedAlzheimer/ADNI 5/AD_jpg_meio'
+caminho_pasta_destino = '/Users/luanr/pycharm/FedAlzheimer/FedAlzheimer/ADNI 5/AD'
 
 if not os.path.exists(caminho_pasta_destino):
     os.makedirs(caminho_pasta_destino)
