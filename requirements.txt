@@ -1,8 +1,24 @@
-torch==2.4.0
-torchvision==0.19.0
-numpy==1.26.4
-flwr[simulation]==1.9.0
-scikit-learn==1.5.0
-torchmetrics==1.4.0
-matplotlib==3.9.0
-PyYAML==6.0.1
+# Requisitos para a execução do script med2image
+
+# Biblioteca principal para computação numérica e manipulação de arrays
+numpy
+
+# Usada para processamento de imagens, como rotações
+scipy
+
+# Essencial para ler e escrever formatos de neuroimagem, como .nii e .nii.gz
+# ATENÇÃO: A versão DEVE ser inferior a 5.0 para ser compatível com
+# a chamada de função 'get_data()' usada neste script.
+nibabel<5.0
+
+# Para ler e manipular arquivos no formato DICOM (.dcm)
+pydicom
+
+# Usada para plotar e salvar as imagens em formatos como .png e .jpg
+matplotlib
+
+# Uma dependência do med2image para logging e utilitários
+pfmisc
+
+# Um depurador de código visual para o terminal (opcional para execução, mas presente no código)
+pudb

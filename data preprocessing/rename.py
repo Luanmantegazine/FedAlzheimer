@@ -1,10 +1,10 @@
 import os
 import pandas as pd
 
-file_path = '/Users/luanr/pycharm/TF/ADNI1_Complete_1Yr_3T_10_11_2024 (1).csv'  
+file_path = '/Users/luanr/pycharm/FedAlzheimer/FedAlzheimer/ADNI1_Complete_2Yr_3T_8_21_2025.csv'
 df = pd.read_csv(file_path)
 
-image_dir = '/Users/luanr/pycharm/TF/ADNI'  
+image_dir = '/Users/luanr/pycharm/FedAlzheimer/FedAlzheimer/ADNI 5'
 
 def rename_files():
     for index, row in df.iterrows():
