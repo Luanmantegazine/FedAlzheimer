@@ -29,7 +29,10 @@ Comparamos ResNet-50 e DenseNet-169, variando:
 - **Resultados** documentados em métricas de Acurácia, Recall, Precisão e AUC.
 
 ---
+## Dados
+Dataset disponível em : https://drive.google.com/drive/folders/1gpxGyE9BDlrVlPskj7qk45y3h98sAj7Y?usp=drive_link
 
+---
 ## Requisitos
 
 - Python 3.8+  
