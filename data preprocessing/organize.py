@@ -3,10 +3,10 @@ import shutil
 import pandas as pd
 
 
-file_path = '/Users/luanr/pycharm/FedAlzheimer/FedAlzheimer/ADNI1_Complete_2Yr_3T_8_21_2025.csv'
+file_path = '/Users/luanr/pycharm/FedAlzheimer/FedAlzheimer/ADNI1_Complete_1Yr_3T_10_11_2024 (1).csv'
 df = pd.read_csv(file_path)
 
-image_dir = '/Users/luanr/pycharm/FedAlzheimer/FedAlzheimer/ADNI 5'
+image_dir = '/Users/luanr/pycharm/FedAlzheimer/ADNI 4'
 
 def organize_files_by_group():
     for index, row in df.iterrows():
